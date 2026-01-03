@@ -34,6 +34,16 @@ Learn to style and design beautiful websites with CSS (Cascading Style Sheets).
 - [Flexbox](CSS/05_flexbox.md)
 - [Responsive Design](CSS/06_responsive_design.md)
 
+### JavaScript
+Add interactivity and dynamic behavior to your websites with JavaScript.
+
+- [Introduction to JavaScript](JavaScript/01_introduction.md)
+- [Variables and Data Types](JavaScript/02_variables_data_types.md)
+- [Functions and Scope](JavaScript/03_functions_scope.md)
+- [Control Flow](JavaScript/04_control_flow.md)
+- [DOM Manipulation](JavaScript/05_dom_manipulation.md)
+- [Events and Interactivity](JavaScript/06_events.md)
+
 ### Python
 Learn Python programming from basics to advanced topics, including data science libraries.
 
@@ -53,9 +63,10 @@ Master SQL for working with relational databases and managing data effectively.
 
 1. **Start with HTML** - Learn the structure of web pages
 2. **Style with CSS** - Make your pages beautiful and responsive
-3. **Learn Git** - Version control is essential for all developers
-4. **Master SQL** - Understand how to work with databases
-5. **Explore Python** - Build backend applications and data analysis
+3. **Add JavaScript** - Make your pages interactive and dynamic
+4. **Learn Git** - Version control is essential for all developers
+5. **Master SQL** - Understand how to work with databases
+6. **Explore Python** - Build backend applications and data analysis
 
 ## Learning Path
 
@@ -63,7 +74,7 @@ For beginners, we recommend this learning order:
 
 1. HTML → Build your first web pages
 2. CSS → Style your pages beautifully
-3. JavaScript → Add interactivity (coming soon)
+3. JavaScript → Add interactivity and dynamic behavior
 4. Git → Version control your projects
 5. SQL → Work with databases
 6. Python → Build backend services

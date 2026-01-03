@@ -49,6 +49,13 @@ nav:
     - CSS/04_box_model_layout.md
     - CSS/05_flexbox.md
     - CSS/06_responsive_design.md
+  - JavaScript:
+    - JavaScript/01_introduction.md
+    - JavaScript/02_variables_data_types.md
+    - JavaScript/03_functions_scope.md
+    - JavaScript/04_control_flow.md
+    - JavaScript/05_dom_manipulation.md
+    - JavaScript/06_events.md
   - Python: Python/
   - SQL:
     - SQL/01_introduction.md
