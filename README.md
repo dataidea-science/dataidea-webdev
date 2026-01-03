@@ -1,126 +1,79 @@
 # Web Development Tutorials
 
-Comprehensive tutorials for fullstack web development covering HTML, CSS, JavaScript, Django, Python, SQL, and Git.
+Comprehensive tutorials for fullstack web development. Learn essential technologies and tools to build modern web applications.
 
-## Features
+## About
 
-- **HTML** - Structure and content
-- **CSS** - Styling and responsive design
-- **JavaScript** - Interactivity and dynamic behavior
-- **Django** - Python web framework
-- **Python** - Programming fundamentals
-- **SQL** - Database management
-- **Git** - Version control
+This project provides beginner-friendly, focused tutorials covering the fundamental technologies needed for fullstack web development. The material is designed to be accessible and practical, helping you build a strong foundation in web development.
 
-## Local Development
+## Topics Covered
 
-### Prerequisites
+### Frontend Development
 
-- Python 3.8+
-- pip
+- **HTML** - Learn the structure and content of web pages
+  - Basic HTML structure
+  - Text formatting and headings
+  - Links and images
+  - Lists and tables
+  - Forms
 
-### Setup
+- **CSS** - Style and design beautiful websites
+  - CSS syntax and selectors
+  - Colors, text, and fonts
+  - Box model and layout
+  - Flexbox
+  - Responsive design
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd webdev
-```
+- **JavaScript** - Add interactivity and dynamic behavior
+  - Variables and data types
+  - Functions and scope
+  - Control flow
+  - DOM manipulation
+  - Events and interactivity
 
-2. Create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+### Backend Development
 
-3. Install dependencies:
-```bash
-pip install mkdocs-material
-pip install mkdocs
-```
+- **Python** - Programming fundamentals and data science libraries
+  - Python basics
+  - Data structures
+  - Object-oriented programming
+  - File handling
+  - NumPy, Pandas, Matplotlib
 
-4. Serve the site locally:
-```bash
-mkdocs serve
-```
+- **Django** - Build powerful web applications
+  - Setting up Django
+  - Models and databases
+  - Views and URLs
+  - Templates
+  - Forms
 
-Visit `http://127.0.0.1:8000` to view the site.
+### Database
 
-### Build
+- **SQL** - Work with relational databases
+  - Basic queries
+  - Filtering data
+  - Aggregate functions
+  - Joins
+  - Subqueries
 
-To build the static site:
-```bash
-mkdocs build
-```
+### Tools
 
-The site will be generated in the `site/` directory.
+- **Git** - Version control and collaboration
+  - Basic Git commands
+  - Branching and merging
+  - GitHub basics
+  - Collaboration workflows
+  - Advanced topics
 
-## Deployment to GitHub Pages
+## Learning Path
 
-This repository is configured for automatic deployment to GitHub Pages using GitHub Actions.
+For beginners, we recommend this learning order:
 
-### Automatic Deployment
-
-The site automatically deploys when you push to the `main` branch. The workflow:
-
-1. Builds the MkDocs site
-2. Deploys to GitHub Pages
-3. Updates the live site
-
-### Manual Deployment
-
-You can also trigger deployment manually:
-
-1. Go to the **Actions** tab in GitHub
-2. Select **Deploy to GitHub Pages** workflow
-3. Click **Run workflow**
-
-### GitHub Pages Settings
-
-1. Go to your repository **Settings**
-2. Navigate to **Pages** section
-3. Under **Source**, select **GitHub Actions**
-
-### Custom Domain
-
-If you're using a custom domain (like `web.dataidea.org`):
-
-1. Add a `CNAME` file in the `docs/` directory with your domain:
-   ```
-   web.dataidea.org
-   ```
-
-2. Configure DNS settings with your domain provider
-
-3. The `site_url` in `mkdocs.yml` should match your domain
-
-## Project Structure
-
-```
-webdev/
-├── docs/              # Documentation source files
-│   ├── HTML/
-│   ├── CSS/
-│   ├── JavaScript/
-│   ├── Django/
-│   ├── Python/
-│   ├── SQL/
-│   └── Git/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml # GitHub Actions workflow
-├── mkdocs.yml         # MkDocs configuration
-└── README.md          # This file
-```
-
-## Contributing
-
-1. Make your changes
-2. Test locally with `mkdocs serve`
-3. Commit and push your changes
-4. The site will automatically deploy
-
-## License
-
-[Add your license here]
+1. **HTML** → Build your first web pages
+2. **CSS** → Style your pages beautifully
+3. **JavaScript** → Add interactivity and dynamic behavior
+4. **Git** → Version control your projects
+5. **SQL** → Work with databases
+6. **Python** → Build backend services
+7. **Django** → Create full-featured web applications
 
