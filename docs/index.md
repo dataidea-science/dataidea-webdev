@@ -248,16 +248,6 @@ hide:
 <div class="course-grid">
 
 <div class="course-card">
-<h3>Git</h3>
-<p>Learn version control with Git and GitHub - essential skills for modern software development.</p>
-<div class="course-meta">6 comprehensive tutorials</div>
-<div class="course-buttons">
-<a href="https://forms.gle/CPL4Rs2pmuR4yToKA" target="_blank" class="course-btn course-btn-primary">Enroll Now</a>
-<a href="Git/01_introduction.md" class="course-btn course-btn-secondary">Start Learning</a>
-</div>
-</div>
-
-<div class="course-card">
 <h3>HTML</h3>
 <p>Master the foundation of web development - HTML (HyperText Markup Language).</p>
 <div class="course-meta">6 comprehensive tutorials</div>
@@ -288,6 +278,26 @@ hide:
 </div>
 
 <div class="course-card">
+<h3>Git</h3>
+<p>Learn version control with Git and GitHub - essential skills for modern software development.</p>
+<div class="course-meta">6 comprehensive tutorials</div>
+<div class="course-buttons">
+<a href="https://forms.gle/CPL4Rs2pmuR4yToKA" target="_blank" class="course-btn course-btn-primary">Enroll Now</a>
+<a href="Git/01_introduction.md" class="course-btn course-btn-secondary">Start Learning</a>
+</div>
+</div>
+
+<div class="course-card">
+<h3>SQL</h3>
+<p>Master SQL for working with relational databases and managing data effectively.</p>
+<div class="course-meta">6 comprehensive tutorials</div>
+<div class="course-buttons">
+<a href="https://forms.gle/CPL4Rs2pmuR4yToKA" target="_blank" class="course-btn course-btn-primary">Enroll Now</a>
+<a href="SQL/01_introduction.md" class="course-btn course-btn-secondary">Start Learning</a>
+</div>
+</div>
+
+<div class="course-card">
 <h3>Python</h3>
 <p>Learn Python programming from basics to advanced topics, including data science libraries.</p>
 <div class="course-meta">Comprehensive tutorial series</div>
@@ -304,16 +314,6 @@ hide:
 <div class="course-buttons">
 <a href="https://forms.gle/CPL4Rs2pmuR4yToKA" target="_blank" class="course-btn course-btn-primary">Enroll Now</a>
 <a href="Django/01_introduction.md" class="course-btn course-btn-secondary">Start Learning</a>
-</div>
-</div>
-
-<div class="course-card">
-<h3>SQL</h3>
-<p>Master SQL for working with relational databases and managing data effectively.</p>
-<div class="course-meta">6 comprehensive tutorials</div>
-<div class="course-buttons">
-<a href="https://forms.gle/CPL4Rs2pmuR4yToKA" target="_blank" class="course-btn course-btn-primary">Enroll Now</a>
-<a href="SQL/01_introduction.md" class="course-btn course-btn-secondary">Start Learning</a>
 </div>
 </div>
 
