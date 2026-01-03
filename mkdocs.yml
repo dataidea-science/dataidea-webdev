@@ -1,0 +1,52 @@
+site_name: Web Development Tutorials
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Git:
+    - Git/01_introduction.md
+    - Git/02_basic_commands.md
+    - Git/03_branching.md
+    - Git/04_github.md
+    - Git/05_collaboration.md
+    - Git/06_advanced.md
+  - HTML:
+    - HTML/01_introduction.md
+    - HTML/02_basic_structure.md
+    - HTML/03_text_formatting.md
+    - HTML/04_links_and_images.md
+    - HTML/05_lists_and_tables.md
+    - HTML/06_forms.md
+  - Python: Python/
+  - SQL:
+    - SQL/01_introduction.md
+    - SQL/02_basic_queries.md
+    - SQL/03_filtering.md
+    - SQL/04_aggregate_functions.md
+    - SQL/05_joins.md
+    - SQL/06_subqueries.md
