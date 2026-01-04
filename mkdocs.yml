@@ -2,6 +2,7 @@ site_name: DATAIDEA
 site_url: https://web.dataidea.org/
 site_author: Juma Shafara
 site_description: DATAIDEA SCIENCE - Learn Programming for Data Science 
+logo: assets/logo.png
 
 plugins:
   - search
