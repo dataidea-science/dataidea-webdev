@@ -2,7 +2,6 @@ site_name: DATAIDEA
 site_url: https://web.dataidea.org/
 site_author: Juma Shafara
 site_description: DATAIDEA SCIENCE - Learn Programming for Data Science 
-logo: assets/logo.png
 
 plugins:
   - search
@@ -11,6 +10,8 @@ plugins:
       include_source: true
 
 theme:
+  logo: assets/logo.png
+  favicon: assets/logo.png
   name: material
   palette:
     # Dark grayscale theme only
