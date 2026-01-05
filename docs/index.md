@@ -239,8 +239,8 @@ hide:
 </style>
 
 <div class="hero-section">
-<h1>Web Development Tutorials</h1>
-<p>Welcome to comprehensive tutorials for fullstack web development! This documentation covers essential technologies and tools you need to build modern web applications.</p>
+<h1>Programming for Web Development</h1>
+<p>This documentation covers essential technologies and tools you need to build modern web applications, and become a confident Fullstack Web Developer</p>
 </div>
 
 <h2 class="section-title">Available Courses</h2>
