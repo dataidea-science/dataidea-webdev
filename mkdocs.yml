@@ -100,3 +100,13 @@ nav:
     - Django/04_views_urls.md
     - Django/05_templates.md
     - Django/06_forms.md
+  - Blog Project:
+    - Blog Project/01_project_overview.md
+    - Blog Project/02_project_setup.md
+    - Blog Project/03_database_models.md
+    - Blog Project/04_views_urls.md
+    - Blog Project/05_html_templates.md
+    - Blog Project/06_css_styling.md
+    - Blog Project/07_javascript.md
+    - Blog Project/08_authentication.md
+    - Blog Project/09_search_deployment.md

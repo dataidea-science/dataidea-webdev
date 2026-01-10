@@ -317,4 +317,14 @@ hide:
 </div>
 </div>
 
+<div class="course-card">
+<h3>Blog Project</h3>
+<p>Build a complete fullstack blog application integrating HTML, CSS, JavaScript, Django, and SQL.</p>
+<div class="course-meta">9 comprehensive tutorials</div>
+<div class="course-buttons">
+<a href="https://forms.gle/CPL4Rs2pmuR4yToKA" target="_blank" class="course-btn course-btn-primary" style="color: black">Enroll Now</a>
+<a href="Blog Project/01_project_overview/" class="course-btn course-btn-secondary">Start Learning</a>
+</div>
+</div>
+
 </div>
