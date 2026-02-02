@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Blog Project: User Authentication
 
 In this tutorial, we'll add user authentication so users can register, log in, and log out. We'll use Django's built-in authentication system.

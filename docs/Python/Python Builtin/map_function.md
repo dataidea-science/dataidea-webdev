@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../../assets/banner_DATAIDEA.png)
+
 ---
 date: 2025-11-12
 categories:

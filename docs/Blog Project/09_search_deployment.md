@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Blog Project: Search & Deployment
 
 In this final tutorial, we'll enhance the search functionality and prepare your blog for deployment to production.

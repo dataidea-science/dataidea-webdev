@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Python Tutorials
 
 Welcome to the Python programming tutorials! This section covers Python from basics to advanced topics, including practical exercises and built-in functions.
