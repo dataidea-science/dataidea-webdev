@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Introduction to Django
 
 Django is a high-level Python web framework that enables rapid development of secure and maintainable websites. It follows the "batteries included" philosophy, providing everything you need to build web applications.

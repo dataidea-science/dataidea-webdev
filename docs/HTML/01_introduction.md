@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Introduction to HTML
 
 HTML (HyperText Markup Language) is the foundation of every web page. It's the standard language used to create and structure content on the web.

@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Collaboration Workflows
 
 Learn professional workflows for collaborating with teams using Git and GitHub.

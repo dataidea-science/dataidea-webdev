@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Blog Project: HTML Templates
 
 In this tutorial, we'll create HTML templates using Django's template language. Templates combine HTML structure with dynamic data from our views.

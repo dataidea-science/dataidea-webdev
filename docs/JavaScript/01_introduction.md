@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Introduction to JavaScript
 
 JavaScript is the programming language that brings websites to life. It adds interactivity, dynamic content, and behavior to web pages.

@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Control Flow
 
 Learn how to make decisions and repeat actions in JavaScript using conditional statements and loops.

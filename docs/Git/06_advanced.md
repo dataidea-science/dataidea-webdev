@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Advanced Git Techniques
 
 Master advanced Git commands and techniques for power users.

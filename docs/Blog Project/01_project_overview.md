@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Blog Project: Overview
 
 Welcome to the Fullstack Blog Project! This comprehensive tutorial will guide you through building a complete, production-ready blog website from scratch. You'll integrate all the technologies you've learned: HTML, CSS, JavaScript, Django, and SQL.

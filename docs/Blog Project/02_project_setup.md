@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Blog Project: Setup
 
 In this tutorial, we'll set up the Django project structure and configure everything needed to start building our blog.

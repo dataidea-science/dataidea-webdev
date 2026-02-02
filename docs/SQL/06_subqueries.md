@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Subqueries
 
 Learn how to use queries within queries to solve complex data problems.

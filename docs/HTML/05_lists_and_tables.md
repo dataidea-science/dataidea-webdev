@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Lists and Tables
 
 Learn how to organize information using lists and display structured data with tables.

@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Templates
 
 Learn how to create dynamic HTML pages using Django's template system.

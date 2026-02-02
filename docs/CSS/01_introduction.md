@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Introduction to CSS
 
 CSS (Cascading Style Sheets) is the language that makes websites beautiful. While HTML provides the structure, CSS controls the visual appearance and layout of web pages.
@@ -7,7 +9,6 @@ CSS (Cascading Style Sheets) is the language that makes websites beautiful. Whil
 CSS is a stylesheet language used to describe how HTML elements should be displayed. It controls colors, fonts, spacing, layout, and visual effects.
 
 ### Key Characteristics
-
 - **Stylesheet Language:** Defines how HTML elements look
 - **Separation of Concerns:** Keeps styling separate from structure
 - **Cascading:** Multiple styles can apply, with rules for which takes priority

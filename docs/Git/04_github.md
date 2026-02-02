@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # GitHub Basics
 
 Learn how to use GitHub to host your code, collaborate with others, and showcase your projects.

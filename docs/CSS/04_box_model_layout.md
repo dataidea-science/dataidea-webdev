@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Box Model and Layout
 
 Understand the CSS box model - the foundation of how elements are sized and spaced. Learn to control layout and positioning.

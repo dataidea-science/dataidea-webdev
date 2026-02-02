@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Aggregate Functions
 
 Learn how to perform calculations on data sets using SQL's powerful aggregate functions.

@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Basic Git Commands
 
 Master the essential Git commands for everyday version control.

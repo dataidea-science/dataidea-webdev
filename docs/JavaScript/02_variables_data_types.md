@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Variables and Data Types
 
 Learn how to store and work with data in JavaScript using variables and understand the different types of data.

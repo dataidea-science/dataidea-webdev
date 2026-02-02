@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # SQL Joins
 
 Learn how to combine data from multiple tables using different types of joins.

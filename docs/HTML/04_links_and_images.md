@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Links and Images
 
 Learn how to create hyperlinks and add images to your web pages - essential skills for building connected, visual websites.

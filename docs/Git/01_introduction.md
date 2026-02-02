@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Introduction to Git and GitHub
 
 Learn version control with Git and collaborate with GitHub - essential skills for modern software development and data science.

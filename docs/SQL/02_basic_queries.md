@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Basic SQL Queries
 
 Learn the fundamental SQL commands to retrieve and filter data from databases.

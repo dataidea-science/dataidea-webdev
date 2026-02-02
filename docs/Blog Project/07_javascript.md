@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Blog Project: JavaScript Interactivity
 
 In this tutorial, we'll add JavaScript to enhance user experience with smooth animations, form validation, and interactive features.

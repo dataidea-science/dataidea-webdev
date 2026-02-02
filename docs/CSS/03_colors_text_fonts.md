@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Colors, Text, and Fonts
 
 Learn how to control colors, typography, and text styling to make your web pages visually appealing and readable.

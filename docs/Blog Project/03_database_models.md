@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Blog Project: Database Models
 
 In this tutorial, we'll design and create the database models for our blog. We'll use Django's ORM (Object-Relational Mapping) to define our data structure, which will automatically create SQL tables.

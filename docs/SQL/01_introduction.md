@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Introduction to SQL
 
 SQL (Structured Query Language) is a standard language for managing and manipulating relational databases. It's essential for data scientists, analysts, and anyone working with data.

@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Setting Up Django
 
 Learn how to install Django, create your first project, and understand the project structure.

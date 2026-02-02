@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # CSS Syntax and Selectors
 
 Master the fundamentals of CSS syntax and learn how to target HTML elements with different types of selectors.

@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Filtering and Pattern Matching
 
 Learn advanced filtering techniques including pattern matching, ranges, and NULL handling.

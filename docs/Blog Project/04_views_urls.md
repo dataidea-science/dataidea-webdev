@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Blog Project: Views and URLs
 
 In this tutorial, we'll create views to handle displaying blog posts and set up URL routing. Views are the logic that processes requests and returns responses.

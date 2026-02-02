@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Blog Project: CSS Styling
 
 In this tutorial, we'll create modern, responsive CSS styles for our blog. We'll use CSS Grid, Flexbox, and modern design principles to create a professional, beautiful interface.

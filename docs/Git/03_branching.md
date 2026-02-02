@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Branching and Merging
 
 Learn how to use Git branches to work on multiple features simultaneously without conflicts.

@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Basic HTML Structure
 
 Learn the fundamental structure of an HTML document and the essential elements every web page needs.

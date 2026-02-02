@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Text Formatting and Headings
 
 Learn how to structure and format text content in HTML using headings, paragraphs, and text formatting tags.

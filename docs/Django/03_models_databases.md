@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Models and Databases
 
 Learn how to define data models and work with databases in Django using the ORM (Object-Relational Mapping).

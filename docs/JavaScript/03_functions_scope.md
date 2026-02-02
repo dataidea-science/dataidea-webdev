@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Functions and Scope
 
 Learn how to create reusable code blocks with functions and understand variable scope in JavaScript.

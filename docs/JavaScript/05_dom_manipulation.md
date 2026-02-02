@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # DOM Manipulation
 
 Learn how to interact with and modify web pages using JavaScript and the Document Object Model (DOM).

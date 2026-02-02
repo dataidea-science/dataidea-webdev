@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Events and Interactivity
 
 Learn how to make your web pages interactive by responding to user actions like clicks, keyboard input, and form submissions.

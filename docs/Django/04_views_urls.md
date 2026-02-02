@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Views and URLs
 
 Learn how to create views that handle user requests and configure URL routing in Django.

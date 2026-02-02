@@ -1,3 +1,5 @@
+![Photo by DATAIDEA](../assets/banner_DATAIDEA.png)
+
 # Responsive Design
 
 Learn how to create websites that work beautifully on all devices - from mobile phones to desktop computers.
