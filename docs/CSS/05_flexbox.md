@@ -64,6 +64,62 @@ Controls the direction of flex items:
 </div>
 ```
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .flex-dir-demo .container {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 2px dashed #ccc;
+}
+.css-example .flex-dir-demo .item {
+    background-color: #2196f3;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 80px;
+}
+.css-example .flex-dir-demo .row {
+    flex-direction: row;
+}
+.css-example .flex-dir-demo .row-reverse {
+    flex-direction: row-reverse;
+}
+.css-example .flex-dir-demo .column {
+    flex-direction: column;
+}
+.css-example .flex-dir-demo .column-reverse {
+    flex-direction: column-reverse;
+}
+</style>
+<div class="flex-dir-demo">
+<p><strong>row (default):</strong></p>
+<div class="container row">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+</div>
+<p><strong>row-reverse:</strong></p>
+<div class="container row-reverse">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+</div>
+<p><strong>column:</strong></p>
+<div class="container column">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+</div>
+</div>
+</div>
+</div>
+
 ## Justify Content
 
 Aligns items along the main axis (horizontal by default):
@@ -105,6 +161,86 @@ Aligns items along the main axis (horizontal by default):
 }
 ```
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .justify-demo .container {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 2px dashed #ccc;
+}
+.css-example .justify-demo .item {
+    background-color: #2196f3;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 80px;
+}
+.css-example .justify-demo .flex-start {
+    justify-content: flex-start;
+}
+.css-example .justify-demo .flex-end {
+    justify-content: flex-end;
+}
+.css-example .justify-demo .center {
+    justify-content: center;
+}
+.css-example .justify-demo .space-between {
+    justify-content: space-between;
+}
+.css-example .justify-demo .space-around {
+    justify-content: space-around;
+}
+.css-example .justify-demo .space-evenly {
+    justify-content: space-evenly;
+}
+</style>
+<div class="justify-demo">
+<p><strong>flex-start:</strong></p>
+<div class="container flex-start">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+</div>
+<p><strong>flex-end:</strong></p>
+<div class="container flex-end">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+</div>
+<p><strong>center:</strong></p>
+<div class="container center">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+</div>
+<p><strong>space-between:</strong></p>
+<div class="container space-between">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+</div>
+<p><strong>space-around:</strong></p>
+<div class="container space-around">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+</div>
+<p><strong>space-evenly:</strong></p>
+<div class="container space-evenly">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+</div>
+</div>
+</div>
+</div>
+
 ## Align Items
 
 Aligns items along the cross axis (vertical by default):
@@ -135,6 +271,35 @@ Aligns items along the cross axis (vertical by default):
 ```
 
 This perfectly centers content both horizontally and vertically!
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .centering-demo .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f5f5f5;
+    border: 2px dashed #ccc;
+    margin: 10px 0;
+}
+.css-example .centering-demo .item {
+    background-color: #2196f3;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+</style>
+<div class="centering-demo">
+<div class="container">
+    <div class="item">Perfectly Centered!</div>
+</div>
+</div>
+</div>
+</div>
 
 ## Flex Wrap
 
@@ -359,6 +524,42 @@ Change visual order without changing HTML:
     flex: 1; /* Equal width */
 }
 ```
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .columns-demo .columns {
+    display: flex;
+    gap: 20px;
+}
+.css-example .columns-demo .column {
+    flex: 1;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #2196f3;
+}
+</style>
+<div class="columns-demo">
+<div class="columns">
+    <div class="column">
+        <h4>Column 1</h4>
+        <p>This column has equal width and automatically matches the height of the tallest column.</p>
+    </div>
+    <div class="column">
+        <h4>Column 2</h4>
+        <p>This is another column with equal width.</p>
+        <p>Even though this column has more content, all columns will have the same height thanks to flexbox!</p>
+    </div>
+    <div class="column">
+        <h4>Column 3</h4>
+        <p>Third column also matches height.</p>
+    </div>
+</div>
+</div>
+</div>
+</div>
 
 ## Complete Example
 

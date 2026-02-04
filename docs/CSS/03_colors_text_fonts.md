@@ -21,6 +21,23 @@ p {
 
 Common keywords: `red`, `blue`, `green`, `black`, `white`, `gray`, `yellow`, `orange`, `purple`, `pink`, `cyan`, `magenta`.
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .color-keywords p {
+    color: red;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+</style>
+<div class="color-keywords">
+<p>This text uses color keywords - red text on blue background</p>
+</div>
+</div>
+</div>
+
 ### Hexadecimal Colors
 
 Most common method. Uses 6 hexadecimal digits:
@@ -45,6 +62,27 @@ p {
 
 **Shorthand:** For colors like `#FFCC00`, you can use `#FC0`.
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .hex-demo h1 {
+    color: #FF0000;
+    background-color: #0000FF;
+    padding: 10px;
+    color: white;
+}
+.css-example .hex-demo p {
+    color: #333333;
+}
+</style>
+<div class="hex-demo">
+<h1>Red text on blue background (#FF0000 on #0000FF)</h1>
+<p>Dark gray text using #333333</p>
+</div>
+</div>
+</div>
+
 ### RGB Colors
 
 Red, Green, Blue values (0-255):
@@ -66,6 +104,24 @@ div {
     color: rgba(255, 0, 0, 0.8); /* 80% opaque red */
 }
 ```
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px; background-image: linear-gradient(45deg, #ccc 25%, transparent 25%), linear-gradient(-45deg, #ccc 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #ccc 75%), linear-gradient(-45deg, transparent 75%, #ccc 75%); background-size: 20px 20px; background-position: 0 0, 0 10px, 10px -10px, -10px 0px;">
+<style>
+.css-example .rgba-demo div {
+    background-color: rgba(0, 0, 255, 0.5);
+    color: rgba(255, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+</style>
+<div class="rgba-demo">
+<div>Semi-transparent blue background (50% opacity) with red text (80% opacity). Notice the checkered pattern shows through!</div>
+</div>
+</div>
+</div>
 
 ### HSL Colors
 
@@ -276,6 +332,32 @@ p {
 }
 ```
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .alignment-demo .left {
+    text-align: left;
+}
+.css-example .alignment-demo .center {
+    text-align: center;
+}
+.css-example .alignment-demo .right {
+    text-align: right;
+}
+.css-example .alignment-demo .justify {
+    text-align: justify;
+}
+</style>
+<div class="alignment-demo">
+<p class="left">This text is aligned left (default)</p>
+<p class="center">This text is centered</p>
+<p class="right">This text is aligned right</p>
+<p class="justify">This text is justified. It spreads evenly across the width of the container, creating a clean edge on both sides.</p>
+</div>
+</div>
+</div>
+
 ### Text Decoration
 
 ```css
@@ -357,6 +439,22 @@ h1 {
 ```
 
 **Format:** `offset-x offset-y blur color`
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .shadow-demo h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 32px;
+    margin: 10px 0;
+}
+</style>
+<div class="shadow-demo">
+<h1>Text with shadow effect</h1>
+</div>
+</div>
+</div>
 
 ## Complete Typography Example
 

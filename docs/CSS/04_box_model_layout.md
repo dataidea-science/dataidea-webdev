@@ -65,6 +65,33 @@ div {
 }
 ```
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .box-sizing-demo .content-box {
+    box-sizing: content-box;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: #e3f2fd;
+    margin-bottom: 20px;
+}
+.css-example .box-sizing-demo .border-box {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: #fff3e0;
+}
+</style>
+<div class="box-sizing-demo">
+<div class="content-box">content-box: Total width = 350px (300px + 40px padding + 10px border)</div>
+<div class="border-box">border-box: Total width = 300px (includes padding and border)</div>
+</div>
+</div>
+</div>
+
 !!! tip "Use border-box"
     Set `box-sizing: border-box` globally for easier sizing:
     ```css
@@ -162,6 +189,42 @@ button {
 }
 ```
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .radius-demo .rounded {
+    border-radius: 10px;
+    background-color: #e3f2fd;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #2196f3;
+}
+.css-example .radius-demo .circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #ff9800;
+    display: inline-block;
+    margin: 10px;
+}
+.css-example .radius-demo .card {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border: 2px solid #ccc;
+}
+</style>
+<div class="radius-demo">
+<div class="rounded">Box with rounded corners (10px)</div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="card">Card with rounded top corners only</div>
+</div>
+</div>
+</div>
+
 ## Margin
 
 Space outside the element, between elements:
@@ -198,6 +261,26 @@ Center elements horizontally:
     margin: 0 auto; /* Top/bottom: 0, Left/right: auto */
 }
 ```
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .auto-margin-demo .container {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border: 2px solid #2196f3;
+    border-radius: 8px;
+}
+</style>
+<div class="auto-margin-demo">
+<div class="container">This container is centered using margin: 0 auto</div>
+</div>
+</div>
+</div>
 
 ### Negative Margin
 

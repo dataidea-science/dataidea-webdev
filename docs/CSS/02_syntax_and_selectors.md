@@ -66,6 +66,30 @@ h1 {
 <h1>This heading is 32px.</h1>
 ```
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .element-demo p {
+    color: red;
+}
+.css-example .element-demo div {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px 0;
+}
+.css-example .element-demo h1 {
+    font-size: 32px;
+}
+</style>
+<div class="element-demo">
+<p>This paragraph is red.</p>
+<div>This div has a light gray background.</div>
+<h1>This heading is 32px.</h1>
+</div>
+</div>
+</div>
+
 ### Class Selector
 
 Selects elements with a specific class attribute. Starts with a dot (`.`):
@@ -91,6 +115,26 @@ Selects elements with a specific class attribute. Starts with a dot (`.`):
 ```html
 <p class="highlight error">This has both classes.</p>
 ```
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .class-demo .highlight {
+    background-color: yellow;
+}
+.css-example .class-demo .error {
+    color: red;
+    font-weight: bold;
+}
+</style>
+<div class="class-demo">
+<p class="highlight">This text is highlighted.</p>
+<p class="error">This is an error message.</p>
+<p class="highlight error">This has both classes.</p>
+</div>
+</div>
+</div>
 
 ### ID Selector
 
@@ -161,6 +205,23 @@ This selects all `<p>` elements inside `<div>` elements.
 </div>
 <p>This paragraph is NOT red.</p>
 ```
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .descendant-demo div p {
+    color: red;
+}
+</style>
+<div class="descendant-demo">
+<div>
+    <p>This paragraph is red (inside div).</p>
+</div>
+<p>This paragraph is NOT red (outside div).</p>
+</div>
+</div>
+</div>
 
 ### Child Selector
 
@@ -291,6 +352,30 @@ a:active {
     color: orange;
 }
 ```
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself (hover over the link):</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .link-demo a:link {
+    color: blue;
+    text-decoration: none;
+}
+.css-example .link-demo a:visited {
+    color: purple;
+}
+.css-example .link-demo a:hover {
+    color: red;
+}
+.css-example .link-demo a:active {
+    color: orange;
+}
+</style>
+<div class="link-demo">
+<a href="#">Hover over this link to see the color change</a>
+</div>
+</div>
+</div>
 
 ### Form States
 

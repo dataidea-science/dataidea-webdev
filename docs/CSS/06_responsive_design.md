@@ -187,6 +187,31 @@ img {
 
 This ensures images never overflow their container.
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself (resize your browser window):</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .responsive-img-demo img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #2196f3;
+    border-radius: 4px;
+}
+.css-example .responsive-img-demo .container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+</style>
+<div class="responsive-img-demo">
+<div class="container">
+<p>This image will scale down but never overflow its container:</p>
+<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200'%3E%3Crect width='400' height='200' fill='%232196f3'/%3E%3Ctext x='50%25' y='50%25' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle'%3EResponsive Image%3C/text%3E%3C/svg%3E" alt="Responsive image example">
+</div>
+</div>
+</div>
+</div>
+
 ### Responsive Images in HTML
 
 ```html
@@ -219,6 +244,47 @@ Flexbox makes responsive layouts easier:
     }
 }
 ```
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself (resize your browser window to see the cards wrap):</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .responsive-flex-demo .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.css-example .responsive-flex-demo .card {
+    flex: 1 1 300px;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #2196f3;
+}
+@media (max-width: 767px) {
+    .css-example .responsive-flex-demo .container {
+        flex-direction: column;
+    }
+}
+</style>
+<div class="responsive-flex-demo">
+<div class="container">
+    <div class="card">
+        <h4>Card 1</h4>
+        <p>This card will wrap to a new line when the container is too narrow.</p>
+    </div>
+    <div class="card">
+        <h4>Card 2</h4>
+        <p>All cards have a minimum width of 300px.</p>
+    </div>
+    <div class="card">
+        <h4>Card 3</h4>
+        <p>Try resizing your browser window to see them wrap!</p>
+    </div>
+</div>
+</div>
+</div>
+</div>
 
 ## Common Responsive Patterns
 

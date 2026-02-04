@@ -69,6 +69,13 @@ This CSS:
 - **Sets** the color to blue
 - **Sets** the font size to 32 pixels
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<h1 style="color: blue; font-size: 32px;">This is a styled heading</h1>
+</div>
+</div>
+
 ## Three Ways to Add CSS
 
 ### 1. Inline CSS (Not Recommended)
@@ -80,6 +87,13 @@ CSS written directly in HTML elements:
 ```
 
 **When to use:** Rarely - only for quick testing or single-use styles.
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<h1 style="color: blue; font-size: 32px;">Hello</h1>
+</div>
+</div>
 
 ### 2. Internal CSS (Embedded)
 
@@ -103,6 +117,21 @@ CSS written in a `<style>` tag in the HTML `<head>`:
 ```
 
 **When to use:** Small projects or single-page sites.
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .internal-demo h1 {
+    color: blue;
+    font-size: 32px;
+}
+</style>
+<div class="internal-demo">
+<h1>Hello</h1>
+</div>
+</div>
+</div>
 
 ### 3. External CSS (Recommended)
 
@@ -148,6 +177,19 @@ p {
 }
 ```
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example p {
+    color: red;
+}
+</style>
+<p>This paragraph is styled red using the element selector.</p>
+<p>All paragraphs are affected by this rule.</p>
+</div>
+</div>
+
 ### Class Selector
 
 Selects elements with a specific class (starts with `.`):
@@ -163,6 +205,20 @@ Used in HTML:
 <p class="highlight">This text is highlighted.</p>
 ```
 
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example .highlight {
+    background-color: yellow;
+}
+</style>
+<p class="highlight">This text is highlighted.</p>
+<p>This text is not highlighted.</p>
+<p class="highlight">This is also highlighted.</p>
+</div>
+</div>
+
 ### ID Selector
 
 Selects an element with a specific ID (starts with `#`):
@@ -177,6 +233,21 @@ Used in HTML:
 ```html
 <div id="header">Header content</div>
 ```
+
+<div class="css-example" style="border: 2px solid #444; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #1e1e1e;">
+<h3 style="margin-top: 0; color: #fff;">Try it yourself:</h3>
+<div style="background-color: #fff; padding: 20px; border-radius: 4px;">
+<style>
+.css-example #header {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+</style>
+<div id="header">Header content</div>
+</div>
+</div>
 
 !!! warning "IDs Should Be Unique"
     Each ID should only be used once per page. Use classes for multiple elements.
