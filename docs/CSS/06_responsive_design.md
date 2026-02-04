@@ -7,6 +7,7 @@ Learn how to create websites that work beautifully on all devices - from mobile 
 ## What is Responsive Design?
 
 Responsive design makes websites adapt to different screen sizes and devices. A responsive site looks good and functions well on:
+- 
 - Mobile phones (320px - 768px)
 - Tablets (768px - 1024px)
 - Desktops (1024px+)
@@ -149,6 +150,7 @@ Use relative units instead of fixed pixels:
 ```
 
 **Units:**
+
 - `vw` - Viewport width (1vw = 1% of viewport width)
 - `vh` - Viewport height (1vh = 1% of viewport height)
 - `vmin` - Smaller of vw or vh
@@ -447,12 +449,12 @@ body {
 ### 1. Fixed Widths
 
 ```css
-/* ❌ Wrong */
+/* Wrong */
 .container {
     width: 1200px;
 }
 
-/* ✅ Correct */
+/* Correct */
 .container {
     max-width: 1200px;
     width: 100%;
@@ -462,12 +464,12 @@ body {
 ### 2. Forgetting Viewport Meta Tag
 
 ```html
-<!-- ❌ Missing -->
+<!-- Missing -->
 <head>
     <title>My Site</title>
 </head>
 
-<!-- ✅ Correct -->
+<!-- Correct -->
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Site</title>
@@ -477,12 +479,12 @@ body {
 ### 3. Not Making Images Responsive
 
 ```css
-/* ❌ Wrong */
+/* Wrong */
 img {
     width: 800px;
 }
 
-/* ✅ Correct */
+/* Correct */
 img {
     max-width: 100%;
     height: auto;
